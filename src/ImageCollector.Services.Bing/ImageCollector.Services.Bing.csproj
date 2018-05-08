@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ImageCollector.Models\ImageCollector.Models.csproj" />
+    <ProjectReference Include="..\ImageCollector.Services.Abstractions\ImageCollector.Services.Abstractions.csproj" />
+    <ProjectReference Include="..\ImageCollector.Services\ImageCollector.Services.csproj" />
+  </ItemGroup>
+
+</Project>
